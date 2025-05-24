@@ -46,7 +46,11 @@ img { width: 100%; vertical-align: middle; }
 
 .banner-section { padding-top: 186px; }
 .banner-section .banner_block { position: relative; margin-bottom: 19px; }
-.banner-section .banner_block .banner_text_block { position: absolute; right: 55px; top: 203px; width: 598px; }
+.banner-section .banner_block { position: relative; margin-bottom: 19px; display: flex; align-items: center; height: 600px; }
+.banner-section .banner_block figure { max-width: 50%; width: 100%; height: 100%; }
+.banner-section .banner_block figure img{ position: absolute; height: 100%;  } 
+.banner-section .banner_block .banner_text_block { position: relative; width: 598px; right: -147px; top: 22px; }
+/* .banner-section .banner_block .banner_text_block { position: absolute; right: 55px; top: 203px; width: 598px; } */
 .banner-section .banner_block .banner_title { margin-bottom: 30px; }
 .banner-section .banner_block p { font-size: 20px; color: var(--white); padding-right: 15px; }
 
@@ -67,7 +71,7 @@ img { width: 100%; vertical-align: middle; }
 /* --------- section-2 */
 .section-2 .flex-heading h2{ position:relative; }
 .section-2 .flex-heading h2.underline:after{content: ''; height: 100%; position: absolute; bottom: 4px; left: 0; border-bottom: 5px solid #DF0; width: 101%; }
-.section-2 .nf_films_list { --gap: 30px; flex-wrap: wrap;}
+.section-2 .nf_films_list { --gap: 50px; flex-wrap: wrap;}
 .section-2 .nf_films_list .nf_card {--gap: 0; border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.20); background: #121212; padding: 30px; justify-content: space-between; height: 100%; } 
 .section-2 .nf_films_list .nf_card .card-img{ max-width: 600px; width: 100%; } 
 
